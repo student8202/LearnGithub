@@ -1,0 +1,42 @@
+git status
+
+# create branch
+git branch alpha
+
+# create new branch and switch to branch
+git checkout -b beta
+
+# view list branch
+git branch --list
+git branch
+
+# switch to branch alpha
+git checkout alpha
+
+# view status, add, commit and push
+git status
+git touch test.txt
+git add .
+git commit -m "init test push to alpha branch"
+git push --set-upstream origin alpha
+
+# view status, add, commit and push master
+git status
+git checkout master
+-- update file
+git add .
+git commit -m "update file use master"
+git push -u origin master
+
+https://stackabuse.com/git-merge-branch-into-master/
+
+$ git checkout master
+$ git branch new-branch
+$ git checkout new-branch
+
+# ...develop some code...
+
+$ git add –A
+$ git commit –m "Some commit message"
+$ git checkout master
+$ git merge new-branch
