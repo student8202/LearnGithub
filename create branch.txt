@@ -1,3 +1,6 @@
+change account github
+https://stackoverflow.com/questions/47465644/github-remote-permission-denied
+
 git status
 
 # create branch
