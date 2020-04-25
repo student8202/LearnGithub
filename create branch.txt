@@ -16,6 +16,10 @@ git branch
 # switch to branch alpha
 git checkout alpha
 
+# delete branch
+$ git push -d <remote_name> <branch_name>
+$ git branch -d <branch_name>
+
 # view status, add, commit and push
 git status
 git touch test.txt
